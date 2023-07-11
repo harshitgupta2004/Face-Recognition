@@ -27,19 +27,23 @@ then follow the same steps as explained in this section.
 
 ## Creating a Virtual Environment:
 - Make sure you have `python-pip` installed, and download **virtualenv**:
+  
   ```
   pip install virtualenv
   ```
 - Then create a virtual environment (you can give any name in place of 'venv'), copy and paste the code in your terminal:
+  
   ```
   virtualenv venv
   ```
 - Now activate this virtual environment
   - On Mac OS/Linux:
+    
     ```
     source venv/bin/activate
     ```
   - On Windows:
+    
     ```
     venv\Scripts\activate
     ```
